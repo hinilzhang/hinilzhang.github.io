@@ -57,7 +57,7 @@
 <p>3、编辑 <code>主题配置文件</code>，启用本地搜索功能：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
 
-<h2 id="提交搜索引擎"><a href="#提交搜索引擎" class="headerlink" title="提交搜索引擎"></a>提交搜索引擎</h2><p>配置站点地图可以将站点添加进百度收录，之后就可以在百度里搜索到站点的内容了。 </p>
+<h3 id="提交搜索引擎"><a href="#提交搜索引擎" class="headerlink" title="提交搜索引擎"></a>提交搜索引擎</h3><p>配置站点地图可以将站点添加进百度收录，之后就可以在百度里搜索到站点的内容了。 </p>
 <p>1、安装sitemap生成工具，在站点的根目录下执行以下命令：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
 
